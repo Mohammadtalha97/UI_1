@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./img/1.png");
+  background-color: #ff7a7b;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  border: 1px solid black;
+}
+
+.column1 {
+  width: 500px;
+  border: 1px solid black;
+}
+
+.col1_row {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50em;
+}
+
+.column2_main {
+  height: 50em;
+  width: 500px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.col2_in {
+  border: 1px solid black;
+  height: 400px;
+}
+
+.inputBox {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+/*
+    - display: flex by default row hoy che
+    - row ne center ma lavvu hoy to align-items: center;
+
+    - display - flex, flex-direction column hoy to
+    - column ne center ma lavva mate   justify-content: center;
+
+
+    - ROW : align-items || COLUMN : justify-content
+*/
